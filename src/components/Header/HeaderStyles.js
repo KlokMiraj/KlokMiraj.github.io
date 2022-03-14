@@ -20,8 +20,8 @@ export const Container = styled.div`
 
 export const Span=styled.span`
   align-content:center;
-  display: flex;
-  font-size:50px;
+  display: none;
+  font-size:100px;
 `;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;

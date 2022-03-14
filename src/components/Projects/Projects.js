@@ -6,7 +6,30 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <div>
-    Projects
+    <Section nopadding id='projects'>
+      <SectionDivider />
+      <SectionTitle>Projects</SectionTitle>
+      <GridContainer>
+        {
+          [{title:'Password Cracking',
+            description:'Password Cracking usig brute force in C using parallel programming'},
+            {title:'Password Cracking',
+            description:'Password Cracking usig brute force in C using parallel programming'},
+            {title:'Password Cracking',
+            description:'Password Cracking usig brute force in C using parallel programming'},
+            {title:'Password Cracking',
+            description:'Password Cracking usig brute force in C using parallel programming'}].map(
+            (project=>(
+              <div>
+                {project.title}
+                <br/>
+                {project.description}
+              </div>
+            ))
+          )
+        }
+      </GridContainer>
+    </Section>
   </div>
 );
 
