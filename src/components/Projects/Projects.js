@@ -10,23 +10,16 @@ const Projects = () => (
       <SectionDivider />
       <SectionTitle>Projects</SectionTitle>
       <GridContainer>
-        {
-          [{title:'Password Cracking',
-            description:'Password Cracking usig brute force in C using parallel programming'},
-            {title:'Password Cracking',
-            description:'Password Cracking usig brute force in C using parallel programming'},
-            {title:'Password Cracking',
-            description:'Password Cracking usig brute force in C using parallel programming'},
-            {title:'Password Cracking',
-            description:'Password Cracking usig brute force in C using parallel programming'}].map(
-            (project=>(
-              <div>
-                {project.title}
-                <br/>
-                {project.description}
-              </div>
-            ))
-          )
+        {projects.map((project)=>(
+           <BlogCard key={project.id}>
+             <Img src={project.image}/>
+             <TitleContent>
+               <HeaderThree title>{project.title}</HeaderThree>
+               <Hr/>
+             </TitleContent>
+             {/* <CardInfo>{project.description}</CardInfo> */}
+           </BlogCard>
+         ))
         }
       </GridContainer>
     </Section>
