@@ -5,7 +5,21 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <div>
-    Technologies
+    <Section id='tech'>
+      <SectionTitle>
+        Skills
+      </SectionTitle>
+      <SectionDivider>
+      <SectionText>
+        Here you can find Technologies Stacks that I use and skills that I am profecient in.
+      </SectionText>
+      </SectionDivider>
+      <List>
+        <ListItem>
+          
+        </ListItem>
+      </List>
+      </Section>
   </div>
 );
 

@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'KAK-London(Wordpress)',
+    title: 'KAK-London',
     description: "KAK-London is a costume wordpress theme that I build for a client in education consulting.",
       image: '/images/1.png',
       tags: ['PHP', 'Wordpress Theme', 'JQuery', 'CSS'],
