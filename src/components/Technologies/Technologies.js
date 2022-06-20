@@ -9,14 +9,49 @@ const Technologies = () =>  (
       <SectionTitle>
         Skills
       </SectionTitle>
-      <SectionDivider>
       <SectionText>
-        Here you can find Technologies Stacks that I use and skills that I am profecient in.
+        Skills that I'm fimiliar with
       </SectionText>
+      <SectionDivider>
+      
       </SectionDivider>
       <List>
         <ListItem>
-          
+          <DiFirebase size="3rem"/>
+          <ListContainer>
+            <ListTitle>
+              Front End
+            </ListTitle>
+            <ListParagraph>
+              Experience with <br/>
+              React.js
+            </ListParagraph>
+          </ListContainer>
+        </ListItem>
+        <ListItem>
+          <DiFirebase size="3rem"/>
+          <ListContainer>
+            <ListTitle>
+              Back-end
+            </ListTitle>
+            <ListParagraph>
+              Experience with <br/>
+              Node.js <br/>
+              Database <br/>
+            </ListParagraph>
+          </ListContainer>
+        </ListItem>
+        <ListItem>
+          <DiFirebase size="3rem"/>
+          <ListContainer>
+            <ListTitle>
+              UI/UX
+            </ListTitle>
+            <ListParagraph>
+              Experience with <br/>
+              tools like thymeleaf
+            </ListParagraph>
+          </ListContainer>
         </ListItem>
       </List>
       </Section>
