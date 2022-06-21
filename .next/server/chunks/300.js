@@ -1012,7 +1012,7 @@ var _resolveRewrites = _interopRequireDefault(__webpack_require__(4453));
 
 var _routeMatcher = __webpack_require__(7451);
 
-var _routeRegex = __webpack_require__(8193);
+var _routeRegex = __webpack_require__(3565);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -2393,7 +2393,7 @@ function getRouteMatcher(routeRegex) {
 
 /***/ }),
 
-/***/ 8193:
+/***/ 3565:
 /***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
@@ -2644,7 +2644,7 @@ module.exports = __webpack_require__(6071)
 
 /***/ }),
 
-/***/ 2821:
+/***/ 8193:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
