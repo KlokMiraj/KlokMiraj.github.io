@@ -2,10 +2,10 @@
   "name": "klokMiraj.dev.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://klokMiraj.github.io/portfolio_page",
+  "homepage": "https://klokMiraj.github.io/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
