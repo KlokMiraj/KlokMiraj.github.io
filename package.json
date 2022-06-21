@@ -2,7 +2,7 @@
   "name": "klokMiraj.dev.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://klokMiraj.github.io",
+  "homepage": "https://klokMiraj.github.io/portfolio_page",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -11,7 +11,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.2.3",
+    "next": "^12.1.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",

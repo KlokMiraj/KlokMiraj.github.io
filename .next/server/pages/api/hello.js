@@ -1,16 +1,19 @@
-(function() {
+"use strict";
+(() => {
 var exports = {};
 exports.id = 453;
 exports.ids = [453];
 exports.modules = {
 
-/***/ 4129:
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ 662:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-/* harmony default export */ __webpack_exports__["default"] = ((req, res) => {
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((req, res) => {
   res.status(200).json({
     name: 'John Doe'
   });
@@ -22,10 +25,10 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 // load runtime
-var __webpack_require__ = require("../../webpack-runtime.js");
+var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
-var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-var __webpack_exports__ = (__webpack_exec__(4129));
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__(662));
 module.exports = __webpack_exports__;
 
 })();
