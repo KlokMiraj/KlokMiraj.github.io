@@ -4,9 +4,10 @@
   "private": true,
   "homepage": "https://klokMiraj.github.io/klokMiraj.github.io/",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d dist",
-    "build": "react-scripts build && cp build/index.html build/404.html"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "next": "^12.1.6",
