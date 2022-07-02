@@ -1,13 +1,9 @@
 FROM node:alpine
 WORKDIR '/app'
 
-#Copies the app's source code into the image's filesystem
-COPY . /usr/local/bin/web/
-#Installs packages for Express framework. Runs in container root directory.
-RUN npm ci --production
-#Installs packages for React app
-RUN npm install --prefix client
-#Builds React app
-RUN npm run --prefix client build
+COPY package.json .
+RUN npm install
+
+COPY . .
 
 CMD ["npm","start"]
