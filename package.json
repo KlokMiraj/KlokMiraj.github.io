@@ -5,12 +5,7 @@
   "homepage": "https://klokMiraj.github.io/klokMiraj.github.io/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-    "dev": "next dev",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "next": "^12.1.6",
