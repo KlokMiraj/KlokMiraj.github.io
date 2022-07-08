@@ -4,10 +4,9 @@
   Portfolio Website - v2.0<br/>
   
 </h2>
-<!-- <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+<div align="center">
+  <img alt="Demo" src="localhost_3000_(1).png" />
 </div>
- -->
 <br/>
 
 <center>
@@ -21,16 +20,16 @@
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/KlokMiraj/klokmiraj.github.io/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/KlokMiraj/klokmiraj.github.io/issues">Request Feature</a>
 </h3>
 
 ## TL;DR
 
 ## Built With
 
-My personal portfolio <a href="http://klokMiraj.github.io/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="http://klokMiraj.github.io/" target="_blank">klokmiraj.github.io</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
