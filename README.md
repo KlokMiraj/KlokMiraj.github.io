@@ -5,7 +5,7 @@
   
 </h2>
 <div align="center">
-  <img alt="Demo" src="localhost_3000_(1).png" />
+ ![alt text]([http://url/to/img.png](https://github.com/KlokMiraj/klokmiraj.github.io/localhost_3000_ (1).png))
 </div>
 <br/>
 
