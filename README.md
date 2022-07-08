@@ -4,10 +4,9 @@
   Portfolio Website - v2.0<br/>
   
 </h2>
-<!-- <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+<div align="center">
+  <img alt="Demo" src="./https://user-images.githubusercontent.com/31037659/178080358-f853da00-825e-48cd-97b5-9d314bb61a51.png" />
 </div>
- -->
 <br/>
 
 <center>
