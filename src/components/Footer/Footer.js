@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Better Late Than Never</Slogan>
+          <Slogan>~This portfolio is powered with ReactJS</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/KlokMiraj">
           <AiFillGithub size="3rem" />
