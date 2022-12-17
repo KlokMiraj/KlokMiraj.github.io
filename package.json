@@ -2,7 +2,7 @@
   "name": "klokMiraj.dev.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://miraj.com.np",
+  "homepage": "https://miraj.com.np/portfolio2",
   "scripts": {
     "predeploy": "npm run build",
     "dev": "next dev",
