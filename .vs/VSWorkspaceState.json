@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\out"
+    "\\out\\images",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Acomplishments",
+    "\\src\\components\\Footer",
+    "\\src\\components\\Hero"
   ],
-  "SelectedNode": "\\out\\index.html",
+  "SelectedNode": "\\src\\components\\Hero\\Hero.js",
   "PreviewInSolutionExplorer": false
 }

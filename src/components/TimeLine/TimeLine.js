@@ -45,7 +45,7 @@ const Timeline = () => {
   return (
     <Section id="about">
        <SectionTitle>Timeline</SectionTitle>
-    <SectionText>Miles Stone to be a Computer Scientist</SectionText>
+    <SectionText>Milestone to become a Data Engineer/Software Engineer</SectionText>
 
        <CarouselContainer ref={carouselRef}>
             <>
