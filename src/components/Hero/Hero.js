@@ -1,5 +1,5 @@
-import React , {useState} from 'react';
-import Collapsible from 'react-Collapsible'
+import React from 'react';
+
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
