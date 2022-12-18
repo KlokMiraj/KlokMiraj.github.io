@@ -5,8 +5,8 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const [learnMore,setLearnMore]=useState(false);
-const {text}='As one of my favourite programming languages and toolkit for data engineering. <n/> I have hands on project done individually on python (not my course work). I recently revisited pandas library following a certification form kaggle.<n/> I have hands on experience with Databricks, Azure Data lake, Azure cosomoDB.'
+const [learnMore,setlearnMore]=useState(false);
+
 const Hero = (props) => (
   <div>
     <Section row nopadding >
@@ -19,10 +19,11 @@ const Hero = (props) => (
           with first class. My major was big data and artificial intellegence following that I am on a lookout 
           for positions in data engineering. 
           <n/>
-           <br/>
+          As one of my favourite programming languages and toolkit for data engineering. I have hands on project done 
+          individually on python (not my course work). I recently revisited pandas library following a certification form kaggle.
+          I have hands on experience with Databricks, Azure Data lake, Azure cosomoDB. <br/>
         </SectionText>
-        {learnMore ? text: '${text.substring(0,250)}'}
-        <Button onClick={() => setLearnMore(!learnMore)= " "}>Learn More</Button>
+        <Button onClick={() => window.location = " "}>Learn More</Button>
       </LeftSection>
     </Section>
   </div>
