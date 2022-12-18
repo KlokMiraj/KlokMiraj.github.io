@@ -18,10 +18,7 @@ const Hero = (props) => (
           Data Engineer with a passion for tech and all things tech. I recently graduated my masters 
           with first class. My major was big data and artificial intellegence following that I am on a lookout 
           for positions in data engineering. 
-          <n/>
-          As one of my favourite programming languages and toolkit for data engineering. I have hands on project done 
-          individually on python (not my course work). I recently revisited pandas library following a certification form kaggle.
-          I have hands on experience with Databricks, Azure Data lake, Azure cosomoDB. <br/>
+          
         </SectionText>
         <Button onClick={() => window.location = " "}>Learn More</Button>
       </LeftSection>
