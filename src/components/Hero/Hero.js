@@ -5,7 +5,6 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const [learnMore,setlearnMore]=useState(false);
 
 const Hero = (props) => (
   <div>
