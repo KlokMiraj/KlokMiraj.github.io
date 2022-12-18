@@ -45,11 +45,13 @@ const Technologies = () =>  (
           <DiFirebase size="3rem"/>
           <ListContainer>
             <ListTitle>
-              UI/UX
+              Data Engineering
             </ListTitle>
             <ListParagraph>
-              Experience with <br/>
-              tools like thymeleaf
+              Azure <br/>
+              Python <br/>
+              ETL <br/>
+              Databricks<br/>
             </ListParagraph>
           </ListContainer>
         </ListItem>
