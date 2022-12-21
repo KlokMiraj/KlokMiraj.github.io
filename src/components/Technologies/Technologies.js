@@ -37,7 +37,9 @@ const Technologies = () =>  (
             <ListParagraph>
               Experience with <br/>
               Node.js <br/>
-              Database <br/>
+              SQL <br/>
+              API Development<br/>
+              Cloud Server <br/>
             </ListParagraph>
           </ListContainer>
         </ListItem>
