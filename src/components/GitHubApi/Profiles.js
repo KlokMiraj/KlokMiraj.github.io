@@ -6,13 +6,8 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Img, Tag
 export default function Profile(props) {
   return (
     <>
-     <Section nopadding id='projects'>
-        <SectionDivider/>
-        <SectionTitle>Git Hub Info</SectionTitle>
-
-        <GridContainer>
             <BlogCard>
-                <Img src={props.owner.avatar_url} alt={props.owner.login}/>
+                
                 <TitleContent>
                     <HeaderThree>{props.owner.login}</HeaderThree>
                 </TitleContent>
@@ -35,8 +30,6 @@ export default function Profile(props) {
                 }
                 
             </BlogCard>
-        </GridContainer>
-     </Section>
     </>
   )
 }
