@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 import { Section, SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
-import { GridContainer, HeaderThree, Tag, TitleContent } from "../Projects/ProjectsStyles";
+import { BlogCard, GridContainer, HeaderThree, Tag, TitleContent } from "../Projects/ProjectsStyles";
 import Profile from "./Profiles";
 
 function GithubApi(){
@@ -22,23 +22,23 @@ function GithubApi(){
 
     return (
         <>
-
+    <div>
         <Section nopadding id='projects'>
             <SectionDivider/>
        
-        <SectionTitle>
-            <HeaderThree> Viewing {user}'s repositories</HeaderThree>
-            </SectionTitle>
-        
-
+        <SectionTitle>Active Github Repos</SectionTitle>
+    
         <GridContainer>
             {!items ? (
           <Loading />
         ) : (
           <div>
-            <TitleContent>Git Hub Profile</TitleContent>
+            <HeaderThree>Git Hub Profile</HeaderThree>
             {items.map((item) => (
-            <Profile key={item.id} {...item} />
+                <BlogCard key={item}>
+                    <Profile key={item.id} {...item} />
+                </BlogCard>
+            
           ))}
           </div>
         )}
@@ -47,7 +47,7 @@ function GithubApi(){
         </GridContainer>
         </Section>
         
-        
+        </div>
       </>
     )
 }

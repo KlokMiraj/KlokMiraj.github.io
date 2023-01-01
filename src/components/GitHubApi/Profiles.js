@@ -7,11 +7,10 @@ export default function Profile(props) {
   return (
     <>
             <BlogCard>
-                
                 <TitleContent>
-                    <HeaderThree>{props.owner.login}</HeaderThree>
+                    <HeaderThree>{props.name}</HeaderThree>
                 </TitleContent>
-                <CardInfo className="card-info">{props.name}</CardInfo>
+                <CardInfo className="card-info">{props.bio}</CardInfo>
                 {props.private?(
                     <TitleContent>Private</TitleContent>
                 ):(
