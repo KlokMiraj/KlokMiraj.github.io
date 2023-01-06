@@ -25,7 +25,6 @@ function GithubApi(){
     <div>
         <Section nopadding id='projects'>
             <SectionDivider/>
-       
         <SectionTitle>Active Github Repos</SectionTitle>
     
         <GridContainer>
@@ -33,7 +32,6 @@ function GithubApi(){
           <Loading />
         ) : (
           <div>
-            <HeaderThree>Git Hub Profile</HeaderThree>
             {items.map((item) => (
                 <BlogCard key={item}>
                     <Profile key={item.id} {...item} />
