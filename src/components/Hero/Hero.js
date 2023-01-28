@@ -16,7 +16,7 @@ const Hero = (props) => (
         <SectionText>
           Data Engineer with a passion for tech and all things tech. I recently graduated my masters 
           with first class. My major was big data and artificial intellegence following that I am on a lookout 
-          for positions in data engineering. 
+          for new opportunity. 
           
         </SectionText>
         <Button onClick={() => window.location = " "}>Learn More</Button>
