@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 import { Section, SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
-import { BlogCard, GridContainer, HeaderThree, Tag, TitleContent } from "../Projects/ProjectsStyles";
+import { BlogCard, GridContainer } from "../Projects/ProjectsStyles";
 import Profile from "./Profiles";
 
 function GithubApi(){
@@ -21,32 +21,28 @@ function GithubApi(){
     },[user])
 
     return (
-        <>
-    <div>
-        <Section nopadding id='projects'>
-            <SectionDivider/>
-        <SectionTitle>Active Github Repos</SectionTitle>
-    
-        <GridContainer>
-            {!items ? (
-          <Loading />
-        ) : (
-          <div>
-            {items.map((item) => (
-                <BlogCard key={item}>
-                    <Profile key={item.id} {...item} />
-                </BlogCard>
-            
-          ))}
-          </div>
-        )}
+      <>
+        <div>
+          <Section nopadding id="projects">
+            <SectionDivider />
+            <SectionTitle>Active Github Repos</SectionTitle>
 
-
-        </GridContainer>
-        </Section>
-        
+            <GridContainer>
+              {!items ? (
+                <Loading />
+              ) : (
+                <div>
+                  {items.map((item) => (
+                    <BlogCard key={item}>
+                      <Profile key={item.id} {...item} />
+                    </BlogCard>
+                  ))}
+                </div>
+              )}
+            </GridContainer>
+          </Section>
         </div>
       </>
-    )
+    );
 }
 export default GithubApi
