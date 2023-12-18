@@ -1,0 +1,13 @@
+node_modules
+**/.build/*
+.webpack
+cache*
+**/webpack
+.next
+.build
+**/.next/*
+**/.next
+.next/*
+.vs
+.idea
+.vscode
