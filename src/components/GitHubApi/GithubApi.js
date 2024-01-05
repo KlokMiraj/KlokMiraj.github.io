@@ -5,7 +5,7 @@ import Profile from "./Profiles";
 
 function GithubApi(){
     const [items,setItems]=useState([])
-    const[user]=useState("klokMiraj")
+    const[user]=useState("pudasainimiraj")
 
     useEffect(()=>{
         const fetchRepos=async()=>{
@@ -32,12 +32,12 @@ function GithubApi(){
                 <Loading />
               ) : (
                 <div>
-                  {items.map((item) => (
-                    <BlogCard key={item}>
-                      <Profile key={item.id} {...item} />
-                    </BlogCard>
-                  ))}
-                </div>
+                {items && Array.isArray(items) && items.map((item) => (
+                  <BlogCard key={item.id}>
+                    <Profile {...item} />
+                  </BlogCard>
+                ))}
+              </div>
               )}
             </GridContainer>
           </Section>
