@@ -1,5 +1,5 @@
 ---
-title: "Hosting Airflow and postgres in docker  "
+title: "Why I think you should limit the use of Chat-GPT?"
 date: "2024-01-04"
 thumbnail: "/images/cms/home-thumbnail.jpg"
 rating: 4

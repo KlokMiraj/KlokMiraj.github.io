@@ -1,34 +1,43 @@
 import React from "react"
-import { Section, SectionDivider, SectionTitle } from "../../styles/GlobalComponents"
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Img, Tag, TagList, TitleContent, UtilityList } from "../Projects/ProjectsStyles"
+import {
+  BlogCard,
+  Img,
+  HeaderThree,
+  CardInfo,
+  Tag,
+  TagList,
+  TitleContent,
+  UtilityList,
+  ExternalLinks,
+} from "../Projects/ProjectsStyles";
 
 
 export default function Profile(props) {
   return (
-    <>
-            <BlogCard>
-                <TitleContent>
-                    <HeaderThree>{props.name}</HeaderThree>
-                </TitleContent>
-                <CardInfo className="card-info">{props.bio}</CardInfo>
-                {props.private?(
-                    <TitleContent>Private</TitleContent>
-                ):(
-                    <TitleContent>Public</TitleContent>
-                )}
-                <UtilityList>
-                    <ExternalLinks href={props.html_url}>Visit Repo</ExternalLinks>
-                </UtilityList>
-                <TagList>
-                    {props.language}
-                </TagList>
-                {
-                    props.topics && 
-                    props.topics.map((topic,i)=>{return <Tag key={i}>{topic}</Tag>;})
-                    
-                }
-                
-            </BlogCard>
-    </>
-  )
+    <BlogCard>
+      <Img src={props.image} /> {/* Adjust the image source as needed */}
+      <TitleContent>
+        <HeaderThree>{props.name}</HeaderThree>
+        <CardInfo className="card-info">{props.bio}</CardInfo>
+        {props.private ? (
+          <TitleContent>Private</TitleContent>
+        ) : (
+          <TitleContent>Public</TitleContent>
+        )}
+        <UtilityList>
+          <ExternalLinks href={props.html_url}>Visit Repo</ExternalLinks>
+        </UtilityList>
+        <div>
+          <TitleContent>Stack</TitleContent>
+          <TagList>
+            <Tag>{props.language}</Tag>
+          </TagList>
+        </div>
+        {props.topics &&
+          props.topics.map((topic, i) => {
+            return <Tag key={i}>{topic}</Tag>;
+          })}
+      </TitleContent>
+    </BlogCard>
+  );
 }
