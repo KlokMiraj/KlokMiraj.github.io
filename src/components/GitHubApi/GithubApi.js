@@ -5,7 +5,7 @@ import Profile from "./Profiles";
 
 function GithubApi(){
     const [items,setItems]=useState([])
-    const[user]=useState("klokMiraj")
+    const[user]=useState("pudasainimiraj")
 
     useEffect(()=>{
         const fetchRepos=async()=>{
