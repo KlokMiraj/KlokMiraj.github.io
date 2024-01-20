@@ -11,10 +11,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Still in university', },
+  {year: 2019, text: 'Worked as a Junior Software Engineer.'},
   { year: 2020, text: 'Graduated University', },
   { year: 2021, text: 'Started Postgraduate', },
-  { year: 2022, text: 'Finished Postgraduate/ Job Hunting'},
+  { year: 2022, text: 'Finished Postgraduate, Started Getting To Know Big Data' },
+  { year: 2023, text: 'Started working at Zola Analytics as a Software Engineer' },
 ];
