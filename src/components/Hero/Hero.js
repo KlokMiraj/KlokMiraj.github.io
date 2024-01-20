@@ -14,8 +14,10 @@ const Hero = (props) => (
             Welcome to my Portfolio <br/>
         </SectionTitle>
         <SectionText>
-          I am a Software Engineer with a passion for learning new technologies and building projects that can help solve real world problems.
-          Currently working at Zola Analytics to build and continuously improve the data pipeline and data warehouse and ingestion process. 
+          I am a Software Engineer with a passion for learning new technologies and solving problems.
+          <br />
+          <t/>
+          Currently working at Zola Analytics building and continuously improving existing data pipeline and ingestion process. 
         </SectionText>
         <Button onClick={() => window.location = " "}>Learn More</Button>
       </LeftSection>
