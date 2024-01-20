@@ -23,8 +23,8 @@ const Technologies = () =>  (
               Front End
             </ListTitle>
             <ListParagraph>
-              Experience with <br/>
-              React.js
+              React.js <br />
+              Chakra UI <br />
             </ListParagraph>
           </ListContainer>
         </ListItem>
@@ -35,8 +35,8 @@ const Technologies = () =>  (
               Back-end
             </ListTitle>
             <ListParagraph>
-              Experience with <br/>
-              Node.js <br/>
+              Node.js <br />
+              OOP <br />
               SQL <br/>
               API Development<br/>
               Cloud Server <br/>
@@ -52,7 +52,10 @@ const Technologies = () =>  (
             <ListParagraph>
               Azure <br/>
               Python <br/>
-              ETL <br/>
+              ETL <br />
+              Dagster <br />
+              Pandas <br />
+              TimescaleDB <br />
               Databricks<br/>
             </ListParagraph>
           </ListContainer>
