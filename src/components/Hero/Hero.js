@@ -14,10 +14,8 @@ const Hero = (props) => (
             Welcome to my Portfolio <br/>
         </SectionTitle>
         <SectionText>
-          Data Engineer with a passion for tech and all things tech. I recently graduated my masters 
-          with first class. My major was big data and artificial intellegence following that I am on a lookout 
-          for new opportunity. 
-          
+          I am a Software Engineer with a passion for learning new technologies and building projects that can help solve real world problems.
+          Currently working at Zola Analytics to build and continuously improve the data pipeline and data warehouse and ingestion process. 
         </SectionText>
         <Button onClick={() => window.location = " "}>Learn More</Button>
       </LeftSection>
