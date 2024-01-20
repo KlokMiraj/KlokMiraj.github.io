@@ -24,8 +24,8 @@
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
-    "@types/node": "^18.19.3",
-    "@types/react": "^18.2.45",
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
     "gh-pages": "^4.0.0",
     "typescript": "^5.3.3"
   }
