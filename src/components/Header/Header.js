@@ -32,7 +32,7 @@ const Header = () =>  (
         </Link>
       </li> 
       <li>
-        <Link href="#Blog">
+        <Link href="/blog">
           <NavLink>Blogs</NavLink>
         </Link>
       </li>       

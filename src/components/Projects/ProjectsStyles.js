@@ -22,15 +22,80 @@ row-gap: 3rem;
 }
 
 `
-export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-  text-align: center;
-  width: 400px;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+
+export const GridRow = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  .grid-card {
+    flex: 1;
+    max-width: calc(33.33% - 1rem); /* Ensure equal width for each card */
   }
 `;
+
+export const BlogCard = styled.div`
+  background: linear-gradient(145deg, ${(props) => props.theme.colors.background2}, ${(props) => props.theme.colors.primary1});
+  color: ${(props) => props.theme.colors.background1};
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease;
+  margin: 1rem;
+  padding: 1rem;
+
+  &:hover {
+     background: linear-gradient(145deg, ${(props) => props.theme.colors.accent1}, ${(props) => props.theme.colors.button});
+    box-shadow: 0 6px 12px rgba(0,0,0,0.8);
+    transform: translateY(-3px); // Slightly less lift
+    ${'' /* background: linear-gradient(145deg, ${(props) => props.theme.colors.background2}, ${(props) => props.theme.colors.primary1}); // More subtle gradient */}
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 1rem 0;
+  }
+`;
+
+
+export const HeaderThree = styled.h3`
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: ${(props) => props.theme.colors.accent1};
+  padding: 0.5rem 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+`;
+
+export const Tag = styled.li`
+  color: ${(props) => props.theme.colors.button};
+  font-weight: bold;
+`;
+
+
+// export const CardInfo = styled.p`
+//   width: 100%;
+//   padding: 0 50px;
+//   color: #e4e6e7;
+//   font-style: 2rem;
+//   line-height: 24px;
+//   text-align: justify;
+//   @media ${(props) => props.theme.breakpoints.sm} {
+//     padding:.3rem
+  
+// }
+// `;
+
+export const CardInfo = styled.p`
+  color: #e4e6e7;
+  font-size: 1rem; // Adjust to match your design
+  line-height: 1.6; // Adjust to match your design
+  text-align: justify;
+  padding: 0 1rem; // Adjust padding to match your design
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 0.5rem;
+  }
+`;
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
@@ -39,13 +104,13 @@ export const TitleContent = styled.div`
 `;
 
 
-export const HeaderThree = styled.h3`
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: #9cc9e3;
-  padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
-`;
+// export const HeaderThree = styled.h3`
+//   font-weight: 500;
+//   letter-spacing: 2px;
+//   color: #9cc9e3;
+//   padding: .5rem 0;
+//   font-size: ${(props) => props.title ? '3rem' : '2rem'};
+// `;
 
 export const Hr = styled.hr`
   width: 50px;
@@ -66,18 +131,7 @@ export const Intro = styled.div`
 `;
 
 
-export const CardInfo = styled.p`
-  width: 100%;
-  padding: 0 50px;
-  color: #e4e6e7;
-  font-style: 2rem;
-  line-height: 24px;
-  text-align: justify;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
-  
-}
-`;
+
 
 
 export const UtilityList = styled.ul`
@@ -86,6 +140,16 @@ export const UtilityList = styled.ul`
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+    i {
+      margin-right: 5px;
+    }
+  }
 `;
 
 export const ExternalLinks = styled.a`
@@ -96,7 +160,9 @@ background: #6b3030;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #d4c0c0;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 
 }
 `;
@@ -106,8 +172,8 @@ display: flex;
 justify-content: space-around;
 padding: 2rem;
 `
-export const Tag = styled.li`
-color: #d8bfbf;
-font-size: 1.5rem;
-`
+// export const Tag = styled.li`
+// color: #d8bfbf;
+// font-size: 1.5rem;
+// `
 
